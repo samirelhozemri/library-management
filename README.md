@@ -19,14 +19,20 @@ Utilisation :
 
 const Library = require('./lib/Library');
 
-// Création d'une instance de la bibliothèque
+// Création d'une instance de la bibliothèque`
+
 const myLibrary = new Library();
 
 // Exemples d'utilisation des méthodes de la bibliothèque
+
 myLibrary.addBook("Le Seigneur des Anneaux", "J.R.R. Tolkien", 20, true, "Fantasy");
+
 myLibrary.addBook("Harry Potter à l'école des sorciers", "J.K. Rowling", 15, true, "Fantasy");
+
 myLibrary.addBook("1984", "George Orwell", 12, true, "Science Fiction");
 
 myLibrary.displayAvailableBooks();
+
 myLibrary.filterBooksByPrice(15);
+
 myLibrary.filterGenreUnderPrice("Fantasy", 20);
