@@ -1,3 +1,4 @@
+Description :
 - Le projet de gestion de bibliothèque fournit une classe JavaScript nommée Library permettant de gérer une collection de livres.
 - Cette classe offre des fonctionnalités telles que l'ajout de livres, l'affichage des livres disponibles, le filtrage des livres par prix et le filtrage des livres par genre et prix.
 
